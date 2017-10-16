@@ -1,0 +1,1442 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+.small_menu_bar {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.small_menu_container {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  cursor: pointer;
+}
+
+.realtruck_logo {
+	margin-left: 5vw;
+	height: 8vh;
+	cursor: pointer;
+}
+
+.shopping_cart {
+	float: right;
+	margin-right: 6vw;
+	margin-top: 2vh;
+	height: 6vh;
+	cursor: pointer;
+}
+
+.sales_number {
+	float: right;
+	margin-top: 2vh;
+	height: 6vh;
+	cursor: pointer;
+}
+
+.search_bar {
+	border: 0;
+	float: right;
+	margin-top: 2.5vh;
+	height: 4vh;
+	width: 20%;
+	background-color: #DFDFDF;
+  display: inline-block;
+  padding: 10px;
+}
+
+.search_bar:focus{
+  outline: 0;
+}
+
+.magnifying_glass {
+	float: right;
+	margin-top: 2.5vh;
+	height: 4vh;
+	width: 4vh;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.truck_img_container {
+  display: inline-block;
+  position: relative;
+  margin-left: 4.0vw;
+}
+
+.truck {
+	width: 90vw;
+}
+
+.yellow_box {
+  cursor: default;
+  position: absolute;
+  left: 1vw;
+  bottom: 2vh;
+  background: rgba(238, 188, 47, 0.9);
+	width: auto;
+	height: 13vh;
+  font-size: 17px;
+  padding-right: 8vw;
+}
+
+.yellow_box h5 a {
+	cursor: pointer;
+	color: gray;
+	margin-left: 1vw;
+}
+
+.yellow_box h1 {
+	color: white;
+	margin-left: 1vw;
+	margin-top: -3vh;
+}
+
+.white_box {
+  display: none;
+  cursor: default;
+  width: 100%;
+  height: 10vh;
+  font-size: 15px;
+}
+
+.white_box h5 a {
+  cursor: pointer;
+  color: gray;
+  margin-left: 1vw;
+}
+
+.white_box h2 {
+  margin-left: 1vw;
+  margin-top: -3vh;
+}
+
+
+
+
+
+
+
+
+
+.show_bar_container {
+  display: inline-block;
+  position: relative;
+  margin-left: 4.0vw;
+}
+
+.show_bar {
+  width: 90vw;
+  margin: 0 auto;
+  height: 6vh;
+  line-height: 6vh;
+  font-size: 15px;
+  background-color: lightgray;
+  font-weight: bold;
+  color: #404040;
+  margin-top: -0.5vh;
+}
+
+.show_bar_left {
+  float: left;
+  margin-left: 1vw;
+}
+
+.show_bar_right {
+  float: right;
+  margin-right: 1vw;
+}
+
+.show_bar_right select {
+  margin-right: 0.5vw;
+}
+
+.show_bar_right_sort {
+  display: none;
+  float: right;
+  margin-right: 8vw;
+}
+
+
+
+
+
+
+
+.ul_container {
+  display: inline-block;
+  position: relative;
+  margin-left: 4.0vw;
+}
+
+
+
+
+ul {
+	  width: 90vw;
+	  height: 8vh;
+    margin: 0 auto;
+    padding: 0 1vw 0 1vw;
+    overflow: hidden;
+    background-color: #111111;
+    display: table;
+  	text-align: center;
+}
+
+li {
+	  font-size: larger;
+	  cursor: pointer;
+    color: white;
+  	vertical-align: middle;
+  	display: table-cell;
+  	width: 8%;
+    text-align: left;
+    padding-left: 2%;
+}
+
+li:hover {
+    background-color: #333333;
+}
+
+ul li ul {
+    display: none;
+    width: 20vw;
+	  height: 30vh;
+    margin-left: -6vw;
+    overflow: hidden;
+  	text-align: left;
+  	vertical-align: bottom;
+  	cursor: default;
+	  background: #333333 url("../assets/dropdown_wheel.png") no-repeat bottom right;  
+}
+
+ul li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+ul li ul li {
+    color: white;
+}
+
+ul li ul li:hover {
+    background: none;
+}
+
+ul li ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 20vw;
+    margin: -1vw 0vw -1vw -3vw;
+    padding: 1vw 0vw 1vw 3vw;
+
+}
+
+ul li ul li a:hover {
+    background-color: #111111;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row_container {
+	  width: 90%;
+	  margin: 0 auto;
+}
+.row div {
+  display: inline-block;
+  vertical-align: middle;
+  
+  height: auto;
+  width: 25%; 
+
+  /* For IE 7 or lower */
+  *display: inline;
+  *zoom:1;
+  *width: 25%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.wheel_box {
+   height: 40vh;
+   /* red outline for showing borders during testing
+   outline: 1px solid red; 
+   outline-offset: -1px;
+   */
+   color: #404040;
+}
+
+.wheel {
+	width: 100%; 
+	height: 80%;
+}
+
+	
+
+
+.wheel_big_text {
+	font-size: x-large;
+	margin-left: 5%;
+  font-weight: bold;
+}
+
+.wheel_medium_text {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.wheel_small_text {
+	margin-left: 5%;
+	vertical-align: super;
+	font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	clear: both;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 11vh;
+    background-color: #333333;
+    color: white;
+}
+
+.footer_text {
+	float: left;
+	margin-top: 1vh;
+    margin-left: 5vw;
+}
+
+hr {
+    height: 2vh;
+    background-color: orange;
+    border: 0;
+}
+
+.footer_logo_container {
+	float: right;
+	margin-top: 1vh;
+	margin-right: 5vw;
+}
+
+.footer_logo {
+	height: 5.5vh;
+	cursor: pointer;
+}
+
+
+.pagination {
+    display: inline-block;
+    float: right;
+}
+
+.pagination_number {
+	height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_number.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_number:hover:not(.active) {
+	border: 1px solid orange;
+	background-color: lightgray;
+}
+
+.pagination_arrow {
+	height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 4px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_arrow.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_arrow:hover:not(.active) {
+	border: 1px solid orange;
+	background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 320px) {
+
+  .row div {
+    width: 100%;
+  }
+
+
+.white_box {
+  clear: both;
+  display: block;
+  position: relative;
+  font-size: 3vmax;
+}
+
+
+
+.pagination {
+    display: block;
+    float: none;
+    display: table;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: small;
+}
+
+.pagination_number {
+    height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 4px 4px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_number.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_number:hover:not(.active) {
+    border: 1px solid orange;
+    background-color: lightgray;
+}
+
+.pagination_arrow {
+    height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 2px 4px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_arrow.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_arrow:hover:not(.active) {
+    border: 1px solid orange;
+    background-color: lightgray;
+}
+
+
+
+.show_bar_container {
+  width: 100%;
+  margin-left: -1vw;
+}
+
+.show_bar {
+  width: 100vw;
+  font-size: 6vmin;
+}
+
+.show_bar_right {
+  display: none;
+}
+
+.show_bar_right_sort {
+  display: block;
+}
+
+.show_debri {
+  display: none;
+}
+
+
+
+
+
+.small_menu_bar {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+.small_menu_container {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 21px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.realtruck_logo {
+  width: 100%;
+  height: 8vh;
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 17px;
+  right: 0;
+  top: 0;
+}
+
+.truck_img_container {
+  margin-top: 4vh;
+  display: inline-block;
+  position: relative;
+  margin-left: 0vw;
+  float: left;
+  margin-left: -8px;
+}
+
+.truck {
+  width: 100vw;
+}
+
+.wheel {
+  width: 50%; 
+  height: 80%;
+  float: left;
+}
+
+.wheel_big_text {
+  font-size: medium;
+  font-weight: bold;
+    font-size: 6vw;
+}
+
+.wheel_medium_text {
+  font-weight: bold;
+  font-size: medium;
+    font-size: 6.5vw;
+}
+
+.wheel_small_text {
+  vertical-align: super;
+  font-size: x-small;
+    font-size: 5vw;
+}
+
+.yellow_box {
+  display: none;
+}
+
+.shopping_cart {
+  display: none;
+}
+
+.sales_number {
+  display: none;
+}
+
+.search_bar {
+  display: none;
+}
+
+.search_bar:focus{
+  display: none;
+}
+
+.magnifying_glass {
+  display: none;
+}
+
+ul {
+  display: none;
+}
+
+
+
+
+
+
+footer {
+  clear: both;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 11vh;
+  background-color: #333333;
+  color: white;
+  font-size: small;
+}
+
+.footer_text {
+  float: left;
+  margin-top: 0vh;
+  margin-left: 5vw;
+}
+
+hr {
+  height: 1vh;
+  background-color: orange;
+  border: 0;
+}
+
+.footer_logo_container {
+  float: right;
+  margin-right: 5vw;
+}
+
+.footer_logo {
+  margin-top: -1vh;
+  height: 5vh;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 400px) and (min-width: 320px){
+  .row div {
+    width: 100%;
+  }
+
+
+.white_box {
+  clear: both;
+  display: block;
+  position: relative;
+  /*font-size: 17px;*/
+  font-size: 3vmax;
+}
+
+
+
+.pagination {
+    display: block;
+    float: none;
+    display: table;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: small;
+}
+
+.pagination_number {
+    height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 4px 6px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_number.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_number:hover:not(.active) {
+    border: 1px solid orange;
+    background-color: lightgray;
+}
+
+.pagination_arrow {
+    height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 2px 6px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_arrow.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_arrow:hover:not(.active) {
+    border: 1px solid orange;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+.small_menu_bar {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+}
+.small_menu_container {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    cursor: pointer;
+}
+
+.realtruck_logo {
+  height: 8vh;
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 28px;
+  right: 0;
+  top: 0;
+}
+
+.truck_img_container {
+  margin-top: 4vh;
+  display: inline-block;
+  position: relative;
+  margin-left: 0vw;
+  float: left;
+  margin-left: -8px;
+}
+
+.truck {
+  width: 100vw;
+}
+
+.yellow_box {
+  display: none;
+}
+
+.shopping_cart {
+  display: none;
+}
+
+.sales_number {
+  display: none;
+}
+
+.search_bar {
+  display: none;
+}
+
+.search_bar:focus{
+  display: none;
+}
+
+.magnifying_glass {
+  display: none;
+}
+
+ul {
+  display: none;
+}
+
+
+
+
+
+.wheel {
+  width: 50%; 
+  height: 100%;
+  float: left;
+}
+
+.wheel_big_text {
+  font-size: large;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 6vw;
+}
+
+.wheel_medium_text {
+  font-weight: bold;
+  font-size: large;
+  font-size: 6.5vw;
+}
+
+.wheel_small_text {
+  margin-left: 5%;
+  vertical-align: super;
+  font-size: small;
+  font-size: 5vw;
+}
+
+
+footer {
+  clear: both;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 11vh;
+  background-color: #333333;
+  color: white;
+  font-size: small;
+}
+
+.footer_text {
+  float: left;
+  margin-top: 0vh;
+  margin-left: 5vw;
+}
+
+hr {
+  height: 1vh;
+  background-color: orange;
+  border: 0;
+}
+
+.footer_logo_container {
+  float: right;
+  margin-right: 5vw;
+}
+
+.footer_logo {
+  margin-top: -1vh;
+  height: 5vh;
+  cursor: pointer;
+}
+
+
+
+
+
+.show_bar_container {
+  width: 100%;
+  margin-left: -1vw;
+}
+
+.show_bar {
+  width: 100vw;
+  font-size: 4.5vmin;
+}
+
+.show_bar_right {
+  display: none;
+}
+
+.show_bar_right_sort {
+  display: block;
+}
+
+.show_debri {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 800px) and (min-width: 400px){
+  .row div {
+    width: 50%;
+  }
+
+
+
+
+
+
+
+.small_menu_bar {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.small_menu_container {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination {
+    display: block;
+    float: none;
+    display: table;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.pagination_number {
+    height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 4px 8px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_number.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_number:hover:not(.active) {
+    border: 1px solid orange;
+    background-color: lightgray;
+}
+
+.pagination_arrow {
+    height: 4vh;
+    color: black;
+    background-color: white;
+    float: left;
+    padding: 2px 8px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination_arrow.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination_arrow:hover:not(.active) {
+    border: 1px solid orange;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.realtruck_logo {
+  height: 8vh;
+  cursor: pointer;
+  z-index: 5;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.shopping_cart {
+  display: none;
+}
+
+.sales_number {
+  display: none;
+}
+
+.search_bar {
+  display: none;
+}
+
+.search_bar:focus{
+  display: none;
+}
+
+.magnifying_glass {
+  display: none;
+}
+
+ul {
+  display: none;
+}
+
+
+
+
+
+
+
+.truck_img_container {
+  margin-top: 5vh;
+  display: inline-block;
+  position: relative;
+  margin-left: 0vw;
+  float: left;
+  margin-left: -8px;
+}
+
+.truck {
+  width: 100vw;
+}
+
+
+
+
+
+.yellow_box {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 10vh;
+}
+
+.yellow_box h1 {
+  color: black;
+  margin-left: 2vw;
+}
+
+.yellow_box h5 {
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+.show_bar_container {
+  width: 100%;
+  margin-left: -1vw;
+}
+
+.show_bar {
+  width: 100vw;
+    font-size: 2.5vmin;
+}
+
+.show_bar_right {
+  margin-right: 3vw;
+}
+
+.show_bar_right select {
+  margin-right: 0.5vw;
+  font-size: 2.5vmin;
+}
+
+.row_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.wheel {
+  width: 50%; 
+  height: 100%;
+  float: left;
+}
+
+.wheel_big_text {
+  font-size: large;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.wheel_medium_text {
+  font-weight: bold;
+  font-size: large;
+  font-size: 2.5vw;
+}
+
+.wheel_small_text {
+  vertical-align: super;
+  font-size: small;
+  font-size: 2vw;
+}
+
+
+
+
+
+footer {
+  clear: both;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 11vh;
+  background-color: #333333;
+  color: white;
+  font-size: medium;
+}
+
+.footer_text {
+  float: left;
+  margin-top: 0vh;
+  margin-left: 5vw;
+}
+
+hr {
+  height: 1vh;
+  background-color: orange;
+  border: 0;
+}
+
+.footer_logo_container {
+  float: right;
+  margin-right: 5vw;
+}
+
+.footer_logo {
+  margin-top: -1vh;
+  height: 5vh;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media all and (max-width: 530px) and (min-width: 400px){
+
+  footer {
+  clear: both;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 11vh;
+  background-color: #333333;
+  color: white;
+  font-size: small;
+}
+
+}
+
+
+
+
+
+
+@media all and (max-width: 925px){
+
+.shopping_cart {
+  display: none;
+}
+
+.sales_number {
+  display: none;
+}
+
+  .search_bar {
+  display: none;
+}
+
+.search_bar:focus{
+  display: none;
+}
+
+.magnifying_glass {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1150px){
+
+ul li {
+    font-size: medium;
+}
+
+ul li ul {
+    height: 22vh;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-height: 700px){
+
+.yellow_box {
+    font-size: 14px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-height: 550px){
+
+.yellow_box {
+    font-size: 13px;
+        font-size: 2.5vmin;
+}
+.yellow_box h1 {
+      margin-top: -4vh;
+}
+.yellow_box h5 {
+      margin-top: 2vh;
+}
+
+}
