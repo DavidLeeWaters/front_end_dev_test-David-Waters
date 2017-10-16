@@ -1,3 +1,22 @@
+#Results
+
+
+#Desktop
+![Mock-up Preview](./results/desktop_results.png)
+
+#Tablet
+![Mock-up Preview](./results/tablet_results.png)
+
+#Mobile
+![Mock-up Preview](./results/phone_results.png)
+
+#npm javascript
+![Mock-up Preview](./results/npm_test_results.png)
+
+
+
+
+
 # Front-End Dev Test
 
 Hello & thank you for your interest in joining our team. We've setup a few little exercises to help assess your skillset.
