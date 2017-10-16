@@ -1,16 +1,16 @@
 #Results
 
 
-#Desktop
+## Desktop
 ![Mock-up Preview](./results/desktop_results.png)
 
-#Tablet
+## Tablet
 ![Mock-up Preview](./results/tablet_results.png)
 
-#Mobile
+## Mobile
 ![Mock-up Preview](./results/phone_results.png)
 
-#npm javascript
+## npm javascript
 ![Mock-up Preview](./results/npm_test_results.png)
 
 
