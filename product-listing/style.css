@@ -63,18 +63,6 @@
 	cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .truck_img_container {
   display: inline-block;
   position: relative;
@@ -129,14 +117,6 @@
   margin-top: -3vh;
 }
 
-
-
-
-
-
-
-
-
 .show_bar_container {
   display: inline-block;
   position: relative;
@@ -175,20 +155,11 @@
   margin-right: 8vw;
 }
 
-
-
-
-
-
-
 .nav_container {
   display: inline-block;
   position: relative;
   margin-left: 4.0vw;
 }
-
-
-
 
 ul {
 	  width: 90vw;
@@ -260,58 +231,6 @@ ul li ul li a:hover {
     opacity: 0.7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.row_container {
-	  width: 90%;
-	  margin: 0 auto;
-}
-.row div {
-  display: inline-block;
-  vertical-align: middle;
-  
-  height: auto;
-  width: 25%; 
-
-  /* For IE 7 or lower */
-  *display: inline;
-  *zoom:1;
-  *width: 25%;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-.wheel_box {
-   height: 40vh;
-   /* red outline for showing borders during testing
-   outline: 1px solid red; 
-   outline-offset: -1px;
-   */
-   color: #404040;
-}
-
 .hide_from {
   display: none;
 }
@@ -354,42 +273,6 @@ ul li ul li a:hover {
   font-size: medium;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
 	clear: both;
     left: 0;
@@ -422,7 +305,6 @@ hr {
 	height: 5.5vh;
 	cursor: pointer;
 }
-
 
 .pagination {
     display: inline-block;
@@ -499,19 +381,12 @@ hr {
 
 @media all and (max-width: 320px) {
 
-  .row div {
-    width: 100%;
-  }
-
-
 .white_box {
   clear: both;
   display: block;
   position: relative;
   font-size: 3vmax;
 }
-
-
 
 .pagination {
     display: block;
@@ -565,8 +440,6 @@ hr {
     background-color: lightgray;
 }
 
-
-
 .show_bar_container {
   width: 100%;
   margin-left: -1vw;
@@ -589,10 +462,6 @@ hr {
   display: none;
 }
 
-
-
-
-
 .small_menu_bar {
   width: 100%;
   height: 3px;
@@ -607,12 +476,6 @@ hr {
   width: 21px;
   cursor: pointer;
 }
-
-
-
-
-
-
 
 .realtruck_logo {
   width: 100%;
@@ -648,7 +511,6 @@ hr {
 
 .wheel {
   width: 50%;
-
   float: left;
 }
 
@@ -701,11 +563,6 @@ hr {
 ul {
   display: none;
 }
-
-
-
-
-
 
 footer {
   clear: both;
@@ -771,15 +628,7 @@ hr {
 
 
 
-
-
-
-
 @media all and (max-width: 400px) and (min-width: 320px){
-  .row div {
-    width: 100%;
-  }
-
 
 .white_box {
   clear: both;
@@ -788,8 +637,6 @@ hr {
   /*font-size: 17px;*/
   font-size: 3vmax;
 }
-
-
 
 .pagination {
     display: block;
@@ -843,19 +690,13 @@ hr {
     background-color: lightgray;
 }
 
-
-
-
-
-
-
-
 .small_menu_bar {
     width: 100%;
     height: 4px;
     background-color: black;
     margin: 5px 0;
 }
+
 .small_menu_container {
     display: block;
     position: absolute;
@@ -918,10 +759,6 @@ ul {
   display: none;
 }
 
-
-
-
-
 .wrapper {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -930,7 +767,6 @@ ul {
 
 .wheel {
   width: 50%;
-
   float: left;
 }
 
@@ -955,29 +791,6 @@ ul {
 .hide_from {
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
   clear: both;
@@ -1012,10 +825,6 @@ hr {
   height: 5vh;
   cursor: pointer;
 }
-
-
-
-
 
 .show_bar_container {
   width: 100%;
@@ -1084,15 +893,6 @@ hr {
 
 
 @media all and (max-width: 800px) and (min-width: 400px){
-  .row div {
-    width: 50%;
-  }
-
-
-
-
-
-
 
 .small_menu_bar {
   width: 100%;
@@ -1100,6 +900,7 @@ hr {
   background-color: black;
   margin: 6px 0;
 }
+
 .small_menu_container {
   display: block;
   position: absolute;
@@ -1108,23 +909,6 @@ hr {
   width: 35px;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .pagination {
     display: block;
@@ -1177,20 +961,6 @@ hr {
     background-color: lightgray;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .realtruck_logo {
   height: 8vh;
   cursor: pointer;
@@ -1227,12 +997,6 @@ ul {
   display: none;
 }
 
-
-
-
-
-
-
 .truck_img_container {
   margin-top: 5vh;
   display: inline-block;
@@ -1246,10 +1010,6 @@ ul {
   width: 100vw;
 }
 
-
-
-
-
 .yellow_box {
   width: 100%;
   left: 0;
@@ -1257,7 +1017,6 @@ ul {
   height: 10vh;
   font-size: 2.5vh;
 }
-
 
 .yellow_box h1 {
   margin-bottom: auto;
@@ -1285,13 +1044,6 @@ ul {
   margin-right: 0.5vw;
   font-size: 2.5vmin;
 }
-
-.row_container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-
 
 .wrapper {
   grid-template-columns: 1fr 1fr;
@@ -1322,10 +1074,6 @@ ul {
   font-size: small;
   font-size: 2vw;
 }
-
-
-
-
 
 footer {
   clear: both;
@@ -1378,6 +1126,12 @@ hr {
 
 
 }
+
+
+
+
+
+
 
 
 
@@ -1457,6 +1211,3 @@ ul li ul {
 }
 
 }
-
-
-
