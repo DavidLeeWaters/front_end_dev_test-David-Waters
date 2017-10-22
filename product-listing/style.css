@@ -19,49 +19,79 @@
   cursor: pointer;
 }
 
+
+
+
+
+
 .realtruck_logo {
-	margin-left: 5vw;
-	height: 8vh;
-	cursor: pointer;
+  margin-left: 5vw;
+  height: 5vmax;
+  cursor: pointer;
 }
+
+
+
+.top_right_bar {
+  float: right;
+  position: absolute;
+  top: 2vmax;
+  right: 0;
+  width: 60%;
+}
+
+
+
+
 
 .shopping_cart {
 	float: right;
 	margin-right: 6vw;
-	margin-top: 2vh;
-	height: 6vh;
+	height: 100%;
 	cursor: pointer;
 }
 
 .sales_number {
 	float: right;
-	margin-top: 2vh;
-	height: 6vh;
+	height: 100%;
 	cursor: pointer;
 }
 
 .search_bar {
 	border: 0;
 	float: right;
-	margin-top: 2.5vh;
-	height: 4vh;
-	width: 20%;
+	height: 100%;
+  width: 30%;
 	background-color: #DFDFDF;
-  display: inline-block;
   padding: 10px;
 }
 
-.search_bar:focus{
+.search_bar:focus {
   outline: 0;
 }
 
 .magnifying_glass {
 	float: right;
-	margin-top: 2.5vh;
-	height: 4vh;
-	width: 4vh;
+  height: 36px;
 	cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .truck_img_container {
   display: inline-block;
@@ -274,57 +304,56 @@ ul li ul li a:hover {
 }
 
 footer {
-	clear: both;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 11vh;
-    background-color: #333333;
-    color: white;
+  clear: both;
+  height: 11vh;
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #333333;
+  color: white;
+  min-height: 50px;
 }
 
 .footer_text {
 	float: left;
-	margin-top: 1vh;
-    margin-left: 5vw;
+  margin-left: 4vw;
+  width: 100%;
 }
 
 hr {
-    height: 2vh;
-    background-color: orange;
-    border: 0;
-}
-
-.footer_logo_container {
-	float: right;
-	margin-top: 1vh;
-	margin-right: 5vw;
+  height: 2vh;
+  background-color: orange;
+  border: 0;
 }
 
 .footer_logo {
+  float: right;
+  margin-right: 4vw;
 	height: 5.5vh;
 	cursor: pointer;
+  min-height: 20px;
+  margin-top: -2vh;
 }
 
 .pagination {
-    display: inline-block;
-    float: right;
+  display: inline-block;
+  float: right;
+  margin-right: 5vw;
 }
 
 .pagination_number {
 	height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_number.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_number:hover:not(.active) {
@@ -334,18 +363,18 @@ hr {
 
 .pagination_arrow {
 	height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 4px 16px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 4px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_arrow.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_arrow:hover:not(.active) {
@@ -389,55 +418,55 @@ hr {
 }
 
 .pagination {
-    display: block;
-    float: none;
-    display: table;
-    margin: 0 auto;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: small;
+  display: block;
+  float: none;
+  display: table;
+  margin: 0 auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: small;
 }
 
 .pagination_number {
-    height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 4px 4px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  height: 4vh;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 4px 4px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_number.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_number:hover:not(.active) {
-    border: 1px solid orange;
-    background-color: lightgray;
+  border: 1px solid orange;
+  background-color: lightgray;
 }
 
 .pagination_arrow {
-    height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 2px 4px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  height: 4vh;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 2px 4px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_arrow.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_arrow:hover:not(.active) {
-    border: 1px solid orange;
-    background-color: lightgray;
+  border: 1px solid orange;
+  background-color: lightgray;
 }
 
 .show_bar_container {
@@ -494,7 +523,6 @@ hr {
   margin-top: 4vh;
   display: inline-block;
   position: relative;
-  margin-left: 0vw;
   float: left;
   margin-left: -8px;
 }
@@ -552,7 +580,7 @@ hr {
   display: none;
 }
 
-.search_bar:focus{
+.search_bar:focus {
   display: none;
 }
 
@@ -566,19 +594,17 @@ ul {
 
 footer {
   clear: both;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 11vh;
+  width: 100vw;
   background-color: #333333;
   color: white;
-  font-size: small;
+  font-size: x-small;
 }
 
 .footer_text {
   float: left;
   margin-top: 0vh;
-  margin-left: 5vw;
+  margin-left: 4vw;
+  width: 100%;
 }
 
 hr {
@@ -587,15 +613,10 @@ hr {
   border: 0;
 }
 
-.footer_logo_container {
-  float: right;
-  margin-right: 5vw;
-}
-
 .footer_logo {
-  margin-top: -1vh;
-  height: 5vh;
-  cursor: pointer;
+  float: right;
+  margin-right: 4vw;
+  min-height: 20px;
 }
 
 
@@ -639,71 +660,71 @@ hr {
 }
 
 .pagination {
-    display: block;
-    float: none;
-    display: table;
-    margin: 0 auto;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: small;
+  display: block;
+  float: none;
+  display: table;
+  margin: 0 auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: small;
 }
 
 .pagination_number {
-    height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 4px 6px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  height: 4vh;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 4px 6px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_number.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_number:hover:not(.active) {
-    border: 1px solid orange;
-    background-color: lightgray;
+  border: 1px solid orange;
+  background-color: lightgray;
 }
 
 .pagination_arrow {
-    height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 2px 6px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  height: 4vh;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 2px 6px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_arrow.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_arrow:hover:not(.active) {
-    border: 1px solid orange;
-    background-color: lightgray;
+  border: 1px solid orange;
+  background-color: lightgray;
 }
 
 .small_menu_bar {
-    width: 100%;
-    height: 4px;
-    background-color: black;
-    margin: 5px 0;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
 }
 
 .small_menu_container {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 28px;
-    cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  cursor: pointer;
 }
 
 .realtruck_logo {
@@ -747,7 +768,7 @@ hr {
   display: none;
 }
 
-.search_bar:focus{
+.search_bar:focus {
   display: none;
 }
 
@@ -794,10 +815,7 @@ ul {
 
 footer {
   clear: both;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 11vh;
+  width: 100vw;
   background-color: #333333;
   color: white;
   font-size: small;
@@ -807,6 +825,7 @@ footer {
   float: left;
   margin-top: 0vh;
   margin-left: 5vw;
+  width: 100%;
 }
 
 hr {
@@ -815,15 +834,10 @@ hr {
   border: 0;
 }
 
-.footer_logo_container {
-  float: right;
-  margin-right: 5vw;
-}
-
 .footer_logo {
-  margin-top: -1vh;
-  height: 5vh;
-  cursor: pointer;
+  float: right;
+  margin-right: 4vw;
+  min-height: 20px;
 }
 
 .show_bar_container {
@@ -911,54 +925,54 @@ hr {
 }
 
 .pagination {
-    display: block;
-    float: none;
-    display: table;
-    margin: 0 auto;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+  display: block;
+  float: none;
+  display: table;
+  margin: 0 auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .pagination_number {
-    height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 4px 8px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  height: 4vh;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_number.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_number:hover:not(.active) {
-    border: 1px solid orange;
-    background-color: lightgray;
+  border: 1px solid orange;
+  background-color: lightgray;
 }
 
 .pagination_arrow {
-    height: 4vh;
-    color: black;
-    background-color: white;
-    float: left;
-    padding: 2px 8px;
-    text-decoration: none;
-    border: 1px solid #ddd;
+  height: 4vh;
+  color: black;
+  background-color: white;
+  float: left;
+  padding: 2px 8px;
+  text-decoration: none;
+  border: 1px solid #ddd;
 }
 
 .pagination_arrow.active {
-    background-color: orange;
-    color: white;
-    border: 1px solid black;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
 }
 
 .pagination_arrow:hover:not(.active) {
-    border: 1px solid orange;
-    background-color: lightgray;
+  border: 1px solid orange;
+  background-color: lightgray;
 }
 
 .realtruck_logo {
@@ -985,7 +999,7 @@ hr {
   display: none;
 }
 
-.search_bar:focus{
+.search_bar:focus {
   display: none;
 }
 
@@ -1077,10 +1091,7 @@ ul {
 
 footer {
   clear: both;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 11vh;
+  width: 100vw;
   background-color: #333333;
   color: white;
   font-size: medium;
@@ -1090,6 +1101,7 @@ footer {
   float: left;
   margin-top: 0vh;
   margin-left: 5vw;
+  width: 100%;
 }
 
 hr {
@@ -1098,27 +1110,11 @@ hr {
   border: 0;
 }
 
-.footer_logo_container {
-  float: right;
-  margin-right: 5vw;
-}
-
 .footer_logo {
-  margin-top: -1vh;
-  height: 5vh;
-  cursor: pointer;
+  float: right;
+  margin-right: 4vw;
+  min-height: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1140,10 +1136,7 @@ hr {
 
   footer {
   clear: both;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 11vh;
+  width: 100vw;
   background-color: #333333;
   color: white;
   font-size: small;
@@ -1166,16 +1159,16 @@ hr {
     display: none;
   }
   
-    .search_bar {
+  .search_bar {
     display: none;
   }
   
-  .search_bar:focus{
+  .search_bar:focus {
     display: none;
   }
   
   .magnifying_glass {
-      display: none;
+    display: none;
   }
 
 }
